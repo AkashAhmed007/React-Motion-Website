@@ -1,12 +1,13 @@
-import './App.css'
+import "./App.css";
+import Home from "./components/All components/Home";
 function App() {
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div>
+      <Home></Home>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
