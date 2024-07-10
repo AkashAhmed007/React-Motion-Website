@@ -1,10 +1,17 @@
 import "./App.css";
-import Home from "./components/All components/Home";
+import Navbar from "./components/All components/Navbar";
 function App() {
   return (
     <>
       <div>
-      <Home></Home>
+        <section><Navbar></Navbar></section>
+        <section>Parallax</section>
+        <section>Services</section>
+        <section>Parallax</section>
+        <section>Portfolio1</section>
+        <section>Portfolio2</section>
+        <section>Portfolio3</section>
+        <section>Contact</section>
       </div>
     </>
   );
