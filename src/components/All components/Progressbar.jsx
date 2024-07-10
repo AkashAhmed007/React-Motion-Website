@@ -9,7 +9,7 @@ export default function Progressbar() {
             }}
             transition={
                 {
-                    duration: 5
+                    duration: 10
                 }
             }
             
