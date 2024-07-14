@@ -8,8 +8,7 @@ const variants = {
     transition:{
       delay:0.5,
       type: "spring",
-      stifness: 40,
-      damping:40
+      stifness: 20,
   }
 },
   closed:{
@@ -17,7 +16,7 @@ const variants = {
     transition:{
       delay:0.5,
       type: "spring",
-      stifness: 40,
+      stifness: 400,
       damping:40
     }
   }

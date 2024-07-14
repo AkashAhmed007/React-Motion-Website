@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
     <div className="h-[100px]">
       <Sidebar></Sidebar>
-      <div className="w-10/12 mx-auto flex justify-between items-center h-full">
+      <div className="w-3/4 mx-auto flex justify-between items-center h-full">
       <motion.span
          initial={{opacity:0, scale:0.5}}
          animate={{opacity:1, scale:1}}
