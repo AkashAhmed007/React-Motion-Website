@@ -8,7 +8,7 @@ const variants = {
     transition:{
       delay:0.5,
       type: "spring",
-      stifness: 20,
+      stiffness: 20,
   }
 },
   closed:{
@@ -16,7 +16,7 @@ const variants = {
     transition:{
       delay:0.5,
       type: "spring",
-      stifness: 400,
+      stiffness: 400,
       damping:40
     }
   }
@@ -26,7 +26,7 @@ export default function Sidebar() {
   return (
     <motion.div 
     animate={open ? 'open':'closed'}
-    className="flex flex-col justify-center items-center bg-white text-black">
+    className="fixed z-20 flex flex-col justify-center items-center bg-white text-black">
       <motion.div 
       variants={variants}
       className="fixed top-0 left-0 bottom-0 w-[300px] bg-white">

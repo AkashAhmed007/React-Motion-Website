@@ -8,8 +8,8 @@ const textVariants = {
     x: 0,
     opacity: 1,
     transition: {
-        duration: 1,
-        staggerChildren: 0.1,
+        duration: 2,
+        staggerChildren: 0.05,
       },
   },
 };
@@ -49,17 +49,18 @@ export default function Hero() {
           <motion.div variants={textVariants} className="flex gap-2">
             <motion.button
               variants={textVariants}
-              className="pointer bg-transparent p-3 border rounded-md text-white font-medium"
+              className="bg-transparent p-3 border rounded-md text-white font-medium"
             >
               See the latest work
             </motion.button>
             <motion.button
               variants={textVariants}
-              className="pointer bg-transparent p-3 border rounded-md text-white font-medium"
+              className="bg-transparent p-3 border rounded-md text-white font-medium"
             >
               Contact Me
             </motion.button>
           </motion.div>
+         
         </motion.div>
         <motion.div
         initial="initial"
