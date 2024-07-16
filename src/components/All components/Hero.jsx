@@ -46,7 +46,7 @@ export default function Hero() {
             Web Developer
           </motion.h1>
 
-          <motion.div variants={textVariants} className="flex gap-2">
+          <motion.div variants={textVariants} className="flex gap-2 z-10">
             <motion.button
               variants={textVariants}
               className="bg-transparent p-3 border rounded-md text-white font-medium"

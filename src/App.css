@@ -14,5 +14,5 @@ body{
 }
 section{
     height: 100vh;
-    scroll-snap-align: bottom;
+    scroll-snap-align: top;
 }

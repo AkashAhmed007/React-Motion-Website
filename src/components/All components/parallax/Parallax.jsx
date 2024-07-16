@@ -8,9 +8,9 @@ const Parallax = ({ type }) => {
     offset:["start start","end start"]
  })
 const yText = useTransform(scrollYProgress,[0,1],["0%","300%"])
-const yBg= useTransform(scrollYProgress,[0,1],["0%","200%"])
+const yBg= useTransform(scrollYProgress,[0,1],["0%","300%"])
   return (
-    <div ref={ref} className="w-full h-full relative flex justify-center items-center">
+    <div ref={ref} className="w-full h-full relative flex justify-center items-center overflow-hidden">
       <motion.h1 style={{y:yText}} className="text-8xl text-white font-bold z-10">
         {type === "services" ? "What We Do?" : "What We Did?"}
       </motion.h1>
